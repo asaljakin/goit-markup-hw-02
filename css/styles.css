@@ -49,14 +49,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.32px;
 }
-
-.accent-color {
-    color: var(--navy-blue-color);
-}
-
-.active-color {
-    color: var(--ocean-color);
-}
 /* ============= /COMMON STYLES ============= */
 
 /* ============= PAGE HEADER ============= */
@@ -79,7 +71,7 @@ body {
     font-weight: var(--medium-font-weight);
 }
 
-.contacts-link {
+.contacts {
     font-style: normal;
 }
 
