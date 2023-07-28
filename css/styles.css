@@ -1,0 +1,187 @@
+/* ============= VARIABLES ============= */
+:root {
+    --iris-color: #4D5AE5;
+    --navy-blue-color: #2E2F42;
+    --slate-color: #434455; /*adress-header*/
+    --white-color: #FFFFFF;
+    --cornflower-color: #E7E9FC;
+    --cloude-color: #F4F4FD;
+    --ocean-color: #404BBF;
+    --primary-font: 'Roboto',
+        sans-serif;
+    --secondary-font: 'Raleway',
+        sans-serif;
+    --main-font-size: 16px;
+    --hero-font-size: 56px;
+    --h2-font-size: 36px;
+    --h3-font-size: 20px;
+    --btn-font-size: 24px;
+    --logo-font-size: 18px;
+    --bold-font-weight: 700;
+    --medium-font-weight: 500;
+    --logo-font-weight: 800;
+}
+/* ============= /VARIABLES ============= */
+
+/* ============= COMMON STYLES ============= */
+.list {
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+    color: currentColor;
+}
+
+button {
+    cursor: pointer;
+    font-family: var(--primary-font);
+    font-size: var(--main-font-size);
+    font-weight: var(--medium-font-weight);
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+}
+
+body {
+    font-family: var(--primary-font);
+    font-size: var(--main-font-size);
+    color: var(--navy-blue-color);
+    background: var(--white-color);
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+.accent-color {
+    color: var(--iris-color);
+}
+/* ============= /COMMON STYLES ============= */
+
+/* ============= PAGE HEADER ============= */
+.logotype {
+    font-family: var(--secondary-font);
+    font-size: var(--logo-font-size);
+    font-weight: var(--logo-font-weight);
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.nav-menu-link {
+    font-weight: var(--medium-font-weight);
+}
+
+.contacts-link {
+    color: var(--slate-color);
+    font-style: normal;
+}
+
+.nav-menu-link:hover,
+.nav-menu-link:focus,
+.contacts-link:hover,
+.contacts-link:focus {
+    color: var(--ocean-color);
+}
+/* ============= /PAGE HEADER ============= */
+
+/* ============= PAGE HERO ============= */
+.hero {
+    width: 1440px;
+    height: 600px;
+    background: var(--navy-blue-color);
+}
+
+.hero-title {
+    color: var(--white-color);
+    text-align: center;
+    font-size: var(--hero-font-size);
+    line-height: 1.07;
+    letter-spacing: 1.12px;
+}
+
+.hero-btn {
+    background: var(--iris-color);
+    color: var(--white-color);
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background: var(--ocean-color);
+}
+/* ============= /PAGE HERO ============= */
+
+/* ============= PAGE BENEFITS ============= */
+.benefits-title {
+    font-size: var(--h3-font-size);
+    font-weight: var(--medium-font-weight);
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+/* ============= /PAGE BENEFITS ============= */
+
+/* ============= PAGE WHAT DOING ============= */
+.what-doing-title {
+    text-align: center;
+    font-size: var(--h2-font-size);
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize
+}
+/* ============= /PAGE WHAT DOING ============= */
+
+/* ============= PAGE OUR TEAM ============= */
+.team-main-title {
+    text-align: center;
+    font-size: var(--h2-font-size);
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+.team-member-name {
+    text-align: center;
+    font-size: var(--h3-font-size);
+    font-weight: var(--medium-font-weight);
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+
+.team-position {
+    color: var(--slate-color);
+    text-align: center;
+}
+/* ============= /PAGE OUR TEAM ============= */
+
+/* ============= PAGE FOOTER ============= */
+.page-footer {
+    background: var(--navy-blue-color);
+    color: var(--cloude-color);
+}
+/* ============= /PAGE FOOTER ============= */
+
+/* ============= PORTFOLIO FILTERS ============= */
+.filters-btn {
+    text-align: center; 
+    background: var(--cloude-color);
+    color: var(--iris-color);
+}
+
+.filters-btn:hover,
+.filters-btn:focus {
+    background: var(--ocean-color);
+    color: var(--white-color);
+}
+
+/* ============= /PORTFOLIO FILTERS ============= */
+
+/* ============= PORTFOLIO PROJECT CARDS ============= */
+.project-cards-title{
+    font-size: var(--h3-font-size);
+    font-weight: var(--medium-font-weight);
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+
+.project-cards-text {
+    color: var(--slate-color);
+}
+/* ============= /PORTFOLIO PROJECT CARDS ============= */
