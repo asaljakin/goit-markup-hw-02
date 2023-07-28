@@ -54,6 +54,10 @@ body {
 .accent-color {
     color: var(--iris-color);
 }
+
+.active-color {
+    color: var(--ocean-color);
+}
 /* ============= /COMMON STYLES ============= */
 
 /* ============= PAGE HEADER ============= */
@@ -85,14 +89,11 @@ body {
 
 /* ============= PAGE HERO ============= */
 .hero {
-    width: 1440px;
-    height: 600px;
     background: var(--navy-blue-color);
 }
 
 .hero-title {
     color: var(--white-color);
-    text-align: center;
     font-size: var(--hero-font-size);
     line-height: 1.07;
     letter-spacing: 1.12px;
@@ -120,7 +121,6 @@ body {
 
 /* ============= PAGE WHAT DOING ============= */
 .what-doing-title {
-    text-align: center;
     font-size: var(--h2-font-size);
     line-height: 1.11;
     letter-spacing: 0.72px;
@@ -129,8 +129,15 @@ body {
 /* ============= /PAGE WHAT DOING ============= */
 
 /* ============= PAGE OUR TEAM ============= */
+.our-team {
+    background-color: var(--cloude-color);
+}
+
+.team-list-item {
+    background-color: var(--white-color);
+}
+
 .team-main-title {
-    text-align: center;
     font-size: var(--h2-font-size);
     line-height: 1.11;
     letter-spacing: 0.72px;
@@ -138,7 +145,6 @@ body {
 }
 
 .team-member-name {
-    text-align: center;
     font-size: var(--h3-font-size);
     font-weight: var(--medium-font-weight);
     line-height: 1.2;
@@ -147,7 +153,6 @@ body {
 
 .team-position {
     color: var(--slate-color);
-    text-align: center;
 }
 /* ============= /PAGE OUR TEAM ============= */
 
@@ -160,7 +165,6 @@ body {
 
 /* ============= PORTFOLIO FILTERS ============= */
 .filters-btn {
-    text-align: center; 
     background: var(--cloude-color);
     color: var(--iris-color);
 }
